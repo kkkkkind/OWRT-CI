@@ -17,3 +17,14 @@ CONFIG_TARGET_DEVICE_qualcommax_ipq60xx_DEVICE_redmi_ax5=y
 CONFIG_TARGET_DEVICE_qualcommax_ipq60xx_DEVICE_redmi_ax5-jdcloud=y
 CONFIG_TARGET_DEVICE_qualcommax_ipq60xx_DEVICE_xiaomi_ax1800=y
 CONFIG_TARGET_DEVICE_qualcommax_ipq60xx_DEVICE_zn_m2=y
+
+CONFIG_PACKAGE_easytier=y
+CONFIG_PACKAGE_luci-app-easytier=y
+CONFIG_PACKAGE_smartdns=y
+CONFIG_PACKAGE_luci-app-smartdns=y
+CONFIG_PACKAGE_luci-app-zerotier=y
+CONFIG_PACKAGE_luci-app-autoreboot=y
+CONFIG_PACKAGE_luci-app-wolplus=y
+CONFIG_PACKAGE_fping=y
+CONFIG_PACKAGE_ddns-go=y
+CONFIG_PACKAGE_luci-app-ddns-go=y
