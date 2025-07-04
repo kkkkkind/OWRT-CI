@@ -18,7 +18,7 @@ jobs:
         with:
           gh_token: ${{secrets.GITHUB_TOKEN}}
           delete_releases: true
-          releases_keep_latest: 5     # 保留最新的 5 份 Releases
+          releases_keep_latest: 2     # 保留最新的 5 份 Releases
           delete_tags: true           # 删除所有 Tags
           delete_workflows: true      # 启用 Workflow Runs 清理
           workflows_keep_day: 5       # 保留最近 5 天的 Workflow Runs
